@@ -20,6 +20,7 @@ mkdir /tmp/memsql-ops
 tar -xzf /tmp/memsql_ops.tar.gz -C /tmp/memsql-ops --strip-components 1
 /tmp/memsql-ops/install.sh \
     --host 127.0.0.1 \
+    --port 29000 \
     --simple-cluster \
     --ops-datadir /memsql-ops \
     --memsql-installs-dir /memsql-ops/installs

@@ -51,4 +51,4 @@ CMD ["memsqld"]
 
 # expose ports
 EXPOSE 3306
-EXPOSE 9000
+EXPOSE 29000
